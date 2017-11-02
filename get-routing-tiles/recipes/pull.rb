@@ -8,7 +8,7 @@
 #
 
 stack = search('aws_opsworks_stack').first
-env = stack['name'].split('::')[1]
+env = stack['name'].split('::')[1] # assumes 'routing::dev::us-east' type format
 
 node.set['get-routing-tiles']['s3bucket_dir'] = env
 

@@ -1,5 +1,5 @@
-name             'mapzen_valhalla-docker'
-maintainer       'Mapzen'
+name             'get-routing-tiles'
+maintainer       'Valhalla'
 maintainer_email 'grant@mapzen.com'
 license          'All rights reserved'
 description      'Installs/Configures valhalla host systems'

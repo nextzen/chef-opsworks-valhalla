@@ -8,6 +8,9 @@
 #
 
 stack = search('aws_opsworks_stack').first
+env = stack['name'].split('::')[1]
+
+node.set['get-routing-tiles']['s3bucket_dir'] = env
 
 # go get the tiles
 execute 'pull tiles' do

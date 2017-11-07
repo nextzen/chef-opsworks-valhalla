@@ -1,0 +1,18 @@
+*.swp
+site-cookbooks
+nodes
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+vendor/
+tmp/
+
+# Bundler
+bin/*
+.bundle/*
+vendor/
